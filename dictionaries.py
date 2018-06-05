@@ -2,9 +2,16 @@ my_dict = { 'name': 'Hunter', 'age': 24, 'grades': [] }
 another_dict = {1: 15, 2: 75, 3: 150}
 
 
-lottery_player = {
-	'name': 'Hunter',
-	'numbers': (1, 2, 3, 4, 5)
+lottery_players = {
+	{
+		'name': 'Hunter',
+		'numbers': (1, 2, 3, 4, 5)
+	},
+	{
+		'name': 'Hunter',
+		'numbers': (1, 2, 3, 4, 5)
+	}
+
 }
 
 universities = [
@@ -18,7 +25,3 @@ universities = [
 	}
 ]
 
-
-sum(lotter_player['numbers'])
-
-lottery_player["name"] = "John"
